@@ -1,0 +1,61 @@
+== PREMESSA:
+Esegui quanto di seguito riportato senza fare commenti e fornendo come output solo quanto di seguito riportato.
+
+== OBIETTIVO: 
+Devo associare ad una particolare affermazione (chiamata affermazione iniziale) alcuni voti associati ad alcuni parametri che mi consentiranno di capire meglio quanto sia corretta l'affermazione iniziale. 
+
+== STEP DEL FRAMEWORK:
+=== STEP1: ANALIZI FATTUALE
+L'analisi deve iniziare con un'analisi fattuale dell'affermazione.
+L'affermazione potrebbe infatti mescolare un dato verificabile con un giudizio.
+Lo scopo di questa prima analisi è quindi quello di scomporre l'affermazione iniziale in un'affermazione fattuale valutabile e in una parte chiamata opinione. 
+Se, al termine di questa prima analisi, l'affermazione fattuale risulta nulla, allora l'elaborazione termina con la seguente indicazione: l'affermazione fornita è una semplice opinione non valutabile.
+Se esiste un'affermazione fattuale estrapolata dall'affermazione iniziale allora si potrà procedere con la fase successiva. 
+
+=== STEP2: ANALISI PARAMETRI
+Dovranno essere valutati con un numero da 1 a 10 i seguenti parametri associati all'affermazione fattuale. 
+
+Il primo parametro da valutare è quello associato alla categoria "validità scientifica". E' necessario cercare online notizie scientifiche su quanto riportato dalla affermazione fattuale. Devono essere analizzati i 10 siti più importanti (in base al numero di pubblicazioni trattate e di persone registrate sul sito) sull'argomento trattato dalla affermazione fattuale. La valutazione di questo parametro produrrà un voto da 1 a 10 in base al numero di siti (tra i 10 definiti prima) che confermano la notizia.
+Terminata l'analisi dovrai tenere traccia della categoria del parametro, del voto dato e dei link ai siti che confermano o smentiscono la affermazione fattuale.
+
+Il secondo parametro è quello associato alla categoria "stampa estera". E' necessario cercare online notizie di testate giornalistiche straniere su quanto riportato dalla affermazione fattuale. Devono essere analizzati i 10 siti più importanti (in base al numero di lettori) sull'argomento trattato dalla affermazione fattuale. La valutazione di questo parametro produrrà un voto da 1 a 10 in base al numero di siti (tra i 10 definiti prima) che confermano la notizia.
+Terminata l'analisi dovrai tenere traccia della categoria del parametro, del voto dato e dei link ai siti che confermano o smentiscono la affermazione fattuale.
+
+Il terzo parametro è quello associato alla categoria "stampa italiana". E' necessario cercare online notizie di testate giornalistiche italiane su quanto riportato dalla affermazione fattuale. Devono essere analizzati i 10 siti più importanti (in base al numero di lettori) sull'argomento trattato dalla affermazione fattuale. La valutazione di questo parametro produrrà un voto da 1 a 10 in base al numero di siti (tra i 10 definiti prima) che confermano la notizia.
+Terminata l'analisi dovrai tenere traccia della categoria del parametro, del voto dato e dei link ai siti che confermano o smentiscono la affermazione fattuale.
+
+Il quarto parametro è quello associato alla categoria "fonti ufficiali". Indica se ci sono fonti ufficiali (ISTAT, Eurostat, governo) che riportano l'informazione. Il valore del parametro sarà così calcolato:
+9-10 Il dato è presente esplicitamente in un documento ufficiale pubblico e consultabile (bilancio dello Stato, rapporto ISTAT/Eurostat, atto normativo, sentenza, comunicato stampa istituzionale) e corrisponde esattamente a quanto affermato, senza bisogno di ricalcoli o inferenze
+7-8 Il dato è ricavabile dalla fonte ufficiale ma richiede un calcolo semplice e non ambiguo (es. sottrazione tra due anni, percentuale su un totale dichiarato)
+5-6 La fonte ufficiale esiste ma copre solo parzialmente l'affermazione, oppure il dato richiede un'interpretazione metodologica non banale (es. quale definizione di "disoccupazione" si usa)
+3-4 Non esiste una fonte ufficiale diretta; l'affermazione si basa su stime di terzi (centri studi, ONG) che a loro volta citano fonti ufficiali in modo indiretto
+1-2 Nessuna fonte ufficiale reperibile, oppure la fonte ufficiale disponibile contraddice l'affermazione
+Terminata l'analisi dovrai tenere traccia della categoria del parametro, del voto dato e dei link ai siti che confermano o smentiscono la affermazione fattuale.
+
+Il quinto parametro è quello associato alla categoria "convergenza fonti". Se fonti con orientamenti politici, culturali e antropologici differenti condividono un'affermazione allora questa affermazione sarà sicuramente più attendibile. Il valore del parametro sarà così calcolato:
+9-10 Fonti con orientamento editoriale/politico opposto (es. una testata di area progressista e una di area conservatrice) riportano lo stesso fatto base in modo sostanzialmente coerente, usando ciascuna una propria raccolta dati indipendente (non la stessa agenzia di lancio)
+7-8 Più fonti indipendenti concordano, ma condividono in parte la stessa fonte a monte (es. tutte citano la stessa agenzia ANSA/Reuters, ma la elaborano autonomamente)
+5-6 Le fonti concordanti sono numerose ma editorialmente omogenee (tutte dello stesso orientamento politico/ideologico) — il fatto potrebbe essere vero, ma la convergenza non è una prova forte perché manca il "test" di fonti avversarie
+3-4 Esiste disaccordo tra fonti di orientamento diverso su dettagli non marginali (numeri, tempistiche, attribuzione di responsabilità)
+1-2 Le fonti di orientamento opposto si contraddicono sul fatto centrale stesso (non solo sull'interpretazione)
+Terminata l'analisi dovrai tenere traccia della categoria del parametro, del voto dato e dei link ai siti che confermano o smentiscono la affermazione fattuale.
+
+Il sesto parametro è quello associato alla categoria "popolo bue". E' necessario cercare e valutare qualitativamente il tono prevalente del dibattito pubblico online. Per valutare questo parametro usa sondaggi e studi che misurano l'opinione pubblica sul tema, ad esempio proxy dati di ricerca accademica che analizzano contenuti social. Trasforma il valore che trovi in un dato compreso tra 1 e 10.
+Terminata l'analisi dovrai tenere traccia della categoria del parametro, del voto dato e dei link ai siti che confermano o smentiscono la affermazione fattuale.
+
+=== STEP 3: OUTPUT:
+Il risultato dell'elaborazione sarà costituito dai seguenti paragrafi, tutti dotati di intestazione testuale ben visibile. 
+
+Sezione "TARGET" che deve riportare in chiaro l'affermazione iniziale e l'affermazione target.
+
+Sezione "DATI SINTETICI" che riporta i valori dei parametri (definiti nella sezione "STEP2: ANALISI PARAMETRI") in formato tabellare:
+- nome parametro
+- valore parametro
+- descrizione breve di cosa indica il valore del parametro
+
+A seguire dovrà essere creata la sezione "DETTAGLIO FONTI" in cui per ogni categoria dovranno essere forniti i link a supporto di quanto riportato dai vari voti.
+
+L'ultima sezione "CONSIGLI AI" contiene consigli che l'AI che esegue l'eleborazione fornisce per migliorare il framework di analisi.
+
+L'affermazione iniziale da analizzare è la seguente:
+%FRASE%
