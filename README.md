@@ -55,3 +55,6 @@ Speech recognition uses the **microphone**. To analyze audio played by the compu
 
 - `server.py` — Flask server that receives sentences and calls the OpenAI API (default model: `gpt-4o`, configurable via `OPENAI_MODEL` in `.env`) with structured JSON output (score, evaluation, reasons). When web search is enabled, it uses the Responses API with the `web_search` tool.
 - `static/index.html` — web interface: uses the browser’s Web Speech API to transcribe spoken Italian in real time and display results instantly.
+
+---
+Author: Luigi Capuzzello (dokDork) · [Website](https://capuzzello.altervista.org/) · [LinkedIn](https://www.linkedin.com/in/luigi-capuzzello/)

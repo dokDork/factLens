@@ -180,5 +180,4 @@ if __name__ == "__main__":
     if not os.environ.get("OPENAI_API_KEY"):
         print("ATTENZIONE: OPENAI_API_KEY non trovata. Crea un file .env "
               "(vedi .env.example) prima di usare l'app.")
-    # app.run(host="127.0.0.1", port=5000, debug=False)
-    app.run(host="192.168.1.139", port=5000, debug=False)
+    app.run(host="127.0.0.1", port=5000, debug=False)
